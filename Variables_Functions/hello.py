@@ -5,5 +5,9 @@ name = input("What's Your Name: ").strip().title()
 print("Hello,",name,sep = " ",end=" ")
 print("Good Morning")  
 
+
+# Split user's name into first name and last name
+first_name,last_name = name.split()
+
 # f-Strings
-print(f"Hello, {name}")
+print(f"Hello your last name is, {last_name}")
